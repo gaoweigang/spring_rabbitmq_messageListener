@@ -1,0 +1,86 @@
+[INFO] 2018-07-11 15:30:00.172 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 15:30:33.910 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 15:30:34.390 [main] [com.gwg.demo.sender.HelloSender]25 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@41005828 
+[INFO] 2018-07-11 15:30:34.390 [main] [com.gwg.demo.sender.HelloSender]27 - Sender : hello gwg Wed Jul 11 15:30:34 CST 2018 
+[INFO] 2018-07-11 15:30:34.435 [SimpleAsyncTaskExecutor-1] [com.gwg.demo.receiver.HelloReceiver]15 - Receiver  : hello gwg Wed Jul 11 15:30:34 CST 2018 
+[INFO] 2018-07-11 15:33:04.195 [main] [com.gwg.demo.config.RabbitMQConfig]56 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 15:33:04.481 [main] [com.gwg.demo.sender.HelloSender]25 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@5965d37 
+[INFO] 2018-07-11 15:33:04.481 [main] [com.gwg.demo.sender.HelloSender]27 - Sender : hello gwg Wed Jul 11 15:33:04 CST 2018 
+[INFO] 2018-07-11 15:37:50.360 [main] [com.gwg.demo.config.RabbitMQConfig]49 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 15:37:50.828 [SimpleAsyncTaskExecutor-1] [com.gwg.demo.receiver.HelloReceiver]15 - Receiver  : hello gwg Wed Jul 11 15:33:04 CST 2018 
+[INFO] 2018-07-11 15:37:50.829 [main] [com.gwg.demo.sender.HelloSender]25 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@3b8f0a79 
+[INFO] 2018-07-11 15:37:50.829 [main] [com.gwg.demo.sender.HelloSender]27 - Sender : hello gwg Wed Jul 11 15:37:50 CST 2018 
+[INFO] 2018-07-11 15:37:50.840 [SimpleAsyncTaskExecutor-1] [com.gwg.demo.receiver.HelloReceiver]15 - Receiver  : hello gwg Wed Jul 11 15:37:50 CST 2018 
+[INFO] 2018-07-11 16:06:51.041 [main] [com.gwg.demo.config.RabbitMQConfig]50 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:06:52.038 [main] [com.gwg.demo.sender.HelloSender]28 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@17aad511 
+[INFO] 2018-07-11 16:06:52.195 [main] [com.gwg.demo.sender.HelloSender]33 - Sender : {"age":22,"id":1,"name":"gaoweigang"} 
+[INFO] 2018-07-11 16:06:52.262 [SimpleAsyncTaskExecutor-1] [com.gwg.demo.receiver.HelloReceiver]18 - Receiver  : {"age":22,"id":1,"name":"gaoweigang"} 
+[INFO] 2018-07-11 16:10:24.689 [main] [com.gwg.demo.config.RabbitMQConfig]50 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:10:25.272 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@487db668 
+[INFO] 2018-07-11 16:10:25.347 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:10:25.418 [SimpleAsyncTaskExecutor-1] [com.gwg.demo.receiver.HelloReceiver]20 - Receiver  : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:26:46.221 [main] [com.gwg.demo.config.RabbitMQConfig]50 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:26:46.776 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@79c5636f 
+[INFO] 2018-07-11 16:26:46.852 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:26:46.976 [SimpleAsyncTaskExecutor-1] [com.gwg.demo.receiver.HelloReceiver]20 - Receiver  : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:36:54.817 [main] [com.gwg.demo.config.RabbitMQConfig]51 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:38:01.573 [main] [com.gwg.demo.config.RabbitMQConfig]51 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:38:02.078 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@7582ff54 
+[INFO] 2018-07-11 16:38:02.184 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:48:36.351 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:48:36.939 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@4716be8b 
+[INFO] 2018-07-11 16:48:37.040 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:50:54.861 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:50:55.385 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]27 - 字节数组 start ..... 
+[INFO] 2018-07-11 16:50:55.385 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]28 - Receiver  : 
+[INFO] 2018-07-11 16:50:55.391 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@4716be8b 
+[INFO] 2018-07-11 16:50:55.494 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:50:55.506 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]27 - 字节数组 start ..... 
+[INFO] 2018-07-11 16:50:55.506 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]28 - Receiver  : 
+[INFO] 2018-07-11 16:57:42.683 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:57:43.318 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@1b812421 
+[INFO] 2018-07-11 16:57:43.443 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:57:43.465 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]28 - 字节数组 start .....[B@16f18b2e 
+[INFO] 2018-07-11 16:57:43.466 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]29 - Receiver  : 
+[INFO] 2018-07-11 16:58:09.780 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:58:10.365 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@1b812421 
+[INFO] 2018-07-11 16:58:10.482 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:58:10.500 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]28 - 字节数组 start .....288 
+[INFO] 2018-07-11 16:58:10.500 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]29 - Receiver  : 
+[INFO] 2018-07-11 16:58:48.960 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 16:58:49.574 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@5d28bcd5 
+[INFO] 2018-07-11 16:58:49.694 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 16:58:49.712 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]28 - 字节数组 start .....288 
+[INFO] 2018-07-11 16:58:49.712 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]29 - Receiver  :�� sr java.util.ArrayListx����a� I sizexp   w   sr com.gwg.demo.model.Student{�1�U��4 I ageL idt Ljava/lang/Integer;L namet Ljava/lang/String;xp   sr java.lang.Integer⠤���8 I valuexr java.lang.Number������  xp   t 
+gaoweigangsq ~    sq ~    t 	高伟刚x 
+[INFO] 2018-07-11 17:15:12.150 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 17:15:12.654 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@4716be8b 
+[INFO] 2018-07-11 17:15:12.764 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:15:12.779 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]29 - 字节数组 start .....288 
+[INFO] 2018-07-11 17:15:12.779 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]30 - Receiver  :�� sr java.util.ArrayListx����a� I sizexp   w   sr com.gwg.demo.model.Student{�1�U��4 I ageL idt Ljava/lang/Integer;L namet Ljava/lang/String;xp   sr java.lang.Integer⠤���8 I valuexr java.lang.Number������  xp   t 
+gaoweigangsq ~    sq ~    t 	高伟刚x 
+[INFO] 2018-07-11 17:16:31.684 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 17:16:32.264 [main] [com.gwg.demo.sender.HelloSender]30 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@5d28bcd5 
+[INFO] 2018-07-11 17:16:32.388 [main] [com.gwg.demo.sender.HelloSender]34 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:16:32.401 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]29 - 字节数组 start .....76 
+[INFO] 2018-07-11 17:16:32.401 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]30 - Receiver  :[{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:26:22.211 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 17:26:22.696 [main] [com.gwg.demo.sender.HelloSender]33 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@4716be8b 
+[INFO] 2018-07-11 17:26:22.800 [main] [com.gwg.demo.sender.HelloSender]38 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:26:22.810 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]29 - 字节数组 start .....76 
+[INFO] 2018-07-11 17:26:22.810 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]30 - Receiver  :[{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:27:24.306 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 17:27:24.911 [main] [com.gwg.demo.sender.HelloSender]33 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@5d28bcd5 
+[INFO] 2018-07-11 17:27:25.032 [main] [com.gwg.demo.sender.HelloSender]38 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:27:25.047 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]29 - 字节数组 start .....76 
+[INFO] 2018-07-11 17:27:25.047 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]30 - Receiver  :[{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:30:48.058 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 17:30:48.532 [main] [com.gwg.demo.sender.HelloSender]33 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@4716be8b 
+[INFO] 2018-07-11 17:30:48.655 [main] [com.gwg.demo.sender.HelloSender]38 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:30:48.666 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]29 - 字节数组 start .....76 
+[INFO] 2018-07-11 17:30:48.667 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]30 - Receiver  :[{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:32:19.088 [main] [com.gwg.demo.config.RabbitMQConfig]54 - 用户名：hbsit， 密码：hbsit， 端口号：5672， 虚拟主机：/hbsit 
+[INFO] 2018-07-11 17:32:19.693 [main] [com.gwg.demo.sender.HelloSender]33 - rabbitTemplate :org.springframework.amqp.rabbit.core.RabbitTemplate@1b812421 
+[INFO] 2018-07-11 17:32:19.818 [main] [com.gwg.demo.sender.HelloSender]38 - Sender : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 
+[INFO] 2018-07-11 17:32:19.869 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]24 - 集合 start ..... 
+[INFO] 2018-07-11 17:32:19.870 [simpleMessageListenerContainer-1] [com.gwg.demo.receiver.HelloReceiver]25 - Receiver  : [{"age":22,"id":1,"name":"gaoweigang"},{"age":23,"id":2,"name":"高伟刚"}] 

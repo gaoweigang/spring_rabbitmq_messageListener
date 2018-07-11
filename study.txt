@@ -1,0 +1,8 @@
+#消息监听容器SimpleMessageListenerContainer，SimpleRabbitListenerContainerFactory 是消息监听的两种方式
+https://www.jianshu.com/p/83861676051c
+
+
+
+
+
+
